@@ -1,0 +1,95 @@
+.modifyWrapper {
+  min-height: 90vh;
+}
+.modifyWrapper .modifyBox {
+  background-color: papayawhip;
+  width: fit-content;
+  padding: 2rem;
+  margin: 3rem auto;
+}
+.modifyWrapper .modifyBox .searchBox {
+  width: 336px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.modifyWrapper .modifyBox .searchBox input:first-child {
+  outline: none;
+  height: 30px;
+  margin-right: 1rem;
+  border-radius: 6px;
+}
+.modifyWrapper .modifyBox .searchBox input:last-child {
+  border: 1px solid darkgray;
+  height: 34px;
+  width: 60px;
+  border-radius: 6px;
+  font-size: 16px;
+  position: relative;
+}
+.modifyWrapper .modifyBox .searchBox input:last-child:active {
+  left: 2px;
+  top: 2px;
+}
+.modifyWrapper .modifyBox .foundProduct {
+  width: 336px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.modifyWrapper .modifyBox .foundProduct .imgWrapper {
+  height: 150px;
+  width: 150px;
+}
+.modifyWrapper .modifyBox .foundProduct .imgWrapper img {
+  max-width: 150px;
+  max-height: 150px;
+}
+.modifyWrapper .modifyBox .foundProduct > div {
+  width: 40px;
+  text-align: center;
+  line-height: 150px;
+}
+.modifyWrapper .modifyBox .foundProduct .productName {
+  line-height: normal;
+  margin: auto 0;
+  width: 80px;
+  font-size: 14px;
+}
+.modifyWrapper .modifyBox .modiBox {
+  border: 1px solid gray;
+  width: 336px;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.modifyWrapper .modifyBox .modiBox > input {
+  display: block;
+  height: 34px;
+  border-radius: 6px;
+  margin: 0 auto;
+  width: 60px;
+  border: 1px solid darkgray;
+  position: relative;
+}
+.modifyWrapper .modifyBox .modiBox > input:active {
+  left: 2px;
+  top: 2px;
+}
+.modifyWrapper .modifyBox .modiBox > div {
+  margin: 0 auto;
+  width: fit-content;
+  margin-bottom: 0.6rem;
+}
+.modifyWrapper .modifyBox .modiBox > div span {
+  display: block;
+  width: fit-content;
+}
+.modifyWrapper .modifyBox .modiBox > div input {
+  outline: none;
+  height: 30px;
+  border-radius: 6px;
+}

@@ -1,0 +1,25 @@
+{
+  "main": "abc_server.js",
+  "engines": {
+    "node": "16.15.1"
+  },
+  
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "path": "^0.12.7",
+    "serve": "^14.0.1"
+  },
+  "scripts": {
+    "start": "node abc_server.js",
+    "heroku-postbuild": "cd abc-ecommerce && npm install && npm run build"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

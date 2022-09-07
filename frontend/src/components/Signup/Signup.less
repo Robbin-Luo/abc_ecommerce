@@ -1,0 +1,77 @@
+.signupWrapper {
+  min-height: 80vh;
+  font-size: 12px;
+  form {
+    margin: 3rem auto;
+    background-color: papayawhip;
+    width:360px;
+    padding: 3rem;
+    .user {
+      margin-bottom: 1rem;
+      display: flex;
+       span {
+        width:87px;
+        display: block;
+        margin-right: 4px;
+        line-height: 38px;
+        text-align: center;
+       }
+       input {
+        outline: none;
+        height:32px;
+        border:3px solid lightcoral;
+        border-radius: 8px;
+        width:240px;
+       }
+    }
+    .password {
+      margin-bottom: 1rem;
+      display: flex;
+       span {
+        width:87px;
+        display: block;
+        margin-right: 4px;
+        line-height: 38px;
+        text-align: center;
+       }
+       .wrap {
+        line-height: 12px;
+        text-align: center;
+        position: relative;
+        top:6px;
+       }
+       input {
+        outline: none;
+        height:32px;
+        border:3px solid lightcoral;
+        border-radius: 8px;
+        width:240px;
+       }
+    }
+    .submit {
+      user-select: none;
+      background-color: lightcoral;
+      display: block;
+      height: 32px;
+      width: 120px;
+      border-radius: 8px;
+      border:none;
+      
+      color:aliceblue;
+      font-size: 20px;
+      margin:0 auto;
+      margin-bottom: 1rem;
+      position: relative;
+      transition: 0.5s;
+      text-align: center;
+      &:active {
+        top:2px;
+        left:2px;
+      }
+    }
+    .signupLink {
+      margin:0 auto;
+      width:fit-content;
+    }
+  }
+}

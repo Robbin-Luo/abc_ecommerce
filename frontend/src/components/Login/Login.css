@@ -1,0 +1,65 @@
+.loginWrapper {
+  min-height: 80vh;
+}
+.loginWrapper form {
+  margin: 3rem auto;
+  background-color: papayawhip;
+  width: 360px;
+  padding: 3rem;
+}
+.loginWrapper form .user {
+  margin-bottom: 2rem;
+  display: flex;
+}
+.loginWrapper form .user span {
+  width: 87px;
+  display: block;
+  margin-right: 4px;
+  line-height: 38px;
+}
+.loginWrapper form .user input {
+  outline: none;
+  height: 32px;
+  border: 3px solid lightcoral;
+  border-radius: 8px;
+  width: 240px;
+}
+.loginWrapper form .password {
+  margin-bottom: 2rem;
+  display: flex;
+}
+.loginWrapper form .password span {
+  width: 87px;
+  display: block;
+  margin-right: 4px;
+  line-height: 38px;
+}
+.loginWrapper form .password input {
+  outline: none;
+  height: 32px;
+  border: 3px solid lightcoral;
+  border-radius: 8px;
+  width: 240px;
+}
+.loginWrapper form .submit {
+  display: block;
+  height: 32px;
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+  background-color: lightcoral;
+  color: aliceblue;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  position: relative;
+  transition: 0.5s;
+}
+.loginWrapper form .submit:active {
+  top: 2px;
+  left: 2px;
+}
+.loginWrapper form .signupLink {
+  margin: 0 auto;
+  width: fit-content;
+}

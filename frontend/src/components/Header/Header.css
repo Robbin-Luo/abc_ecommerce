@@ -1,0 +1,68 @@
+header {
+  background-color: #203040;
+  color: aliceblue;
+  height: 3rem;
+  overflow: hidden;
+}
+header svg {
+  position: relative;
+  top: 3px;
+}
+header .headerCore {
+  max-width: 900px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  line-height: 3rem;
+}
+header .headerCore > a {
+  margin: 0;
+  position: relative;
+}
+header .headerCore > a img {
+  margin: 0;
+  height: 3rem;
+}
+@media screen and (min-width: 600px) {
+  header .search input {
+    height: 2rem;
+    border-radius: 0.6rem;
+    outline: none;
+    border: 1px solid white;
+    max-width: 150px;
+  }
+  header .search svg {
+    margin-left: 3px;
+  }
+  header .search svg:hover {
+    color: red;
+  }
+}
+@media screen and (max-width: 599px) {
+  header .search {
+    display: none;
+  }
+}
+header .login {
+  text-align: center;
+}
+header .login a {
+  color: white;
+}
+header .login a:hover {
+  color: red;
+}
+header .login a:first-child {
+  border-right: 1px solid lightgrey;
+  padding-right: 4px;
+  margin-right: 4px;
+}
+.user {
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: 0.5s;
+  text-align: center;
+  line-height: normal;
+}

@@ -1,0 +1,58 @@
+input{
+  padding-left: 6px;
+}
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsHOz8mM.ttf) format('truetype');
+}
+body {
+  background-color: #cbf0ff;
+  font-family: Russo One;
+  user-select: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: underline;
+}
+button {
+  position: relative;
+  transition: 0.2s;
+}
+button:hover {
+  box-shadow: 0 0 2px 2px;
+}
+button:hover:active {
+  top: 2px;
+  left: 2px;
+  opacity: 0.8;
+}
+.appWrapper {
+  overflow-x: hidden;
+}
+.appWrapper .cart {
+  width: fit-content;
+  display: flex;
+  float: right;
+  text-decoration: none;
+  position: fixed;
+  right: 0;
+  top: 70px;
+}
+.appWrapper .cart svg {
+  font-size: 30px;
+}
+.appWrapper .cart div {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+}

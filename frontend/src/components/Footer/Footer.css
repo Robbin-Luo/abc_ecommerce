@@ -1,0 +1,12 @@
+footer {
+  background-color: #203040;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  width: 100vw;
+}
+footer .footerCore {
+  width: fit-content;
+  margin: 0 auto;
+}

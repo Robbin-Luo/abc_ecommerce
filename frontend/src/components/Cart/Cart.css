@@ -1,0 +1,103 @@
+.empty {
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+.cartWrapper {
+  margin: 1rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 2rem auto;
+  min-height: 100vh;
+}
+.cartWrapper svg {
+  position: relative;
+  transition: 0.2s;
+}
+.cartWrapper svg:hover {
+  color: #fe2f4a;
+}
+.cartWrapper svg:hover:active {
+  top: 2px;
+  left: 2px;
+  opacity: 0.8;
+}
+.cartWrapper .item {
+  display: flex;
+  max-width: 100%;
+  border: 1px solid gray;
+  margin-top: 24px;
+  line-height: 80px;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+.cartWrapper .item a {
+  display: flex;
+  justify-content: flex-start;
+  width: 300px;
+}
+.cartWrapper .item a > div:first-child {
+  height: 80px;
+  width: 80px;
+  background-color: lightgray;
+  text-align: center;
+  display: flex;
+}
+.cartWrapper .item a > div:first-child img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  line-height: 80px;
+}
+.cartWrapper .item a > div:last-child {
+  line-height: 80px;
+  text-decoration: underline;
+  color: #ff9640;
+  font-size: 12px;
+}
+.cartWrapper .item .changeQuantity {
+  display: flex;
+}
+.cartWrapper .item .changeQuantity div {
+  line-height: 80px;
+}
+.cartWrapper .item .changeQuantity div:first-child,
+.cartWrapper .item .changeQuantity div:last-child {
+  position: relative;
+  top: 2px;
+}
+.cartWrapper .item .changeQuantity div:nth-child(2) {
+  width: 16px;
+  text-align: center;
+}
+.cartWrapper .item .changeQuantity div svg {
+  flex-direction: column;
+  justify-content: center;
+}
+.cartWrapper .total {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  margin-right: 1rem;
+}
+.cartWrapper .total div {
+  margin-bottom: 0.5rem;
+}
+.cartWrapper .checkout {
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 240px;
+  background-color: crimson;
+  color: aliceblue;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: none;
+}
+.cartWrapper .checkout:hover {
+  box-shadow: 0 0 3px 3px blue;
+  opacity: 0.9;
+}

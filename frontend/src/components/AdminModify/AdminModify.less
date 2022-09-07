@@ -1,0 +1,99 @@
+.modifyWrapper {
+  min-height: 90vh;
+  .modifyBox{
+    background-color: papayawhip;
+    width:fit-content;
+    padding: 2rem;
+    margin:3rem auto;
+    .searchBox{
+      width:336px;
+      width:fit-content;
+      margin:0 auto;
+      input{
+        &:first-child{
+          outline: none;
+          height:30px;
+          margin-right: 1rem;
+          border-radius: 6px;
+        }
+        &:last-child{
+          border:1px solid darkgray;
+          height:34px;
+          width:60px;
+          border-radius: 6px;
+          font-size: 16px;
+          position: relative;
+          &:active{
+            left:2px;
+            top:2px;
+          }
+        }
+      }
+    }
+    .foundProduct {
+      width: 336px;
+      padding: 0.5rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border:1px solid gray;
+      border-radius: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+        .imgWrapper{
+          height:150px;
+          width:150px;
+          img{
+            max-width: 150px;
+            max-height: 150px;
+          }
+        }
+      >div{
+        width:40px;
+        text-align: center;
+        line-height: 150px;
+      }
+      .productName {
+        line-height: normal;
+        margin:auto 0;
+        width:80px;
+        font-size: 14px;
+      }
+      
+    }
+    .modiBox {
+      border:1px solid gray;
+      width:336px;
+      padding: 0.5rem;
+      border-radius: 8px;
+      >input{
+        display: block;
+        height:34px;
+        border-radius: 6px;
+        margin:0 auto;
+        width:60px;
+        border:1px solid darkgray;
+        position: relative;
+        &:active{
+          left:2px;
+          top:2px;
+        }
+      }
+      >div{ 
+        margin:0 auto;
+        width:fit-content;
+        span {
+          display: block;
+          width:fit-content;
+        }
+        margin-bottom: 0.6rem;
+        input{
+          outline: none;
+          height:30px;
+          border-radius: 6px;
+        }
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,30 @@
+.categoryWrapper {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+.categoryWrapper .productWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+.categoryWrapper .productWrapper .product {
+  border: 1px solid gray;
+  max-width: 250px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.categoryWrapper .productWrapper .product .imgWrapper {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  background-color: white;
+}
+.categoryWrapper .productWrapper .product .imgWrapper > a {
+  margin: auto 0;
+}
+.categoryWrapper .productWrapper .product .imgWrapper > a img {
+  max-width: 250px;
+  max-height: 250px;
+}

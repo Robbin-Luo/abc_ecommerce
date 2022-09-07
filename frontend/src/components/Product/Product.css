@@ -1,0 +1,71 @@
+.productContainer {
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+.productContainer .imgContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.productContainer .imgContainer img {
+  max-width: 700px;
+  max-height: 700px;
+}
+@media screen and (max-width: 400px) {
+  .productContainer .imgContainer img {
+    max-width: 100vw;
+  }
+}
+.productContainer .proInfo {
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.productContainer .proInfo .right .color {
+  line-height: 24px;
+}
+.productContainer .proInfo .right .color span {
+  user-select: none;
+}
+.productContainer .proInfo .addCart {
+  margin-top: 1rem;
+  display: flex;
+  width: fit-content;
+}
+.productContainer .proInfo .addCart .left {
+  border: 1px solid gray;
+  display: flex;
+}
+.productContainer .proInfo .addCart .left .quantity {
+  width: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.productContainer .proInfo .addCart .left button {
+  border: none;
+  width: 120px;
+  background-color: #ff9640;
+  color: aliceblue;
+  font-size: 20px;
+}
+.productContainer .proInfo .addCart .left .increAndDecre {
+  width: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.productContainer .proInfo .addCart .left .increAndDecre div {
+  height: 20px;
+  position: relative;
+  transition: 0.3s;
+}
+.productContainer .proInfo .addCart .left .increAndDecre div:hover {
+  color: red;
+}
+.productContainer .proInfo .addCart .left .increAndDecre div:active {
+  top: 2px;
+  left: 2px;
+}

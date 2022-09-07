@@ -1,0 +1,11 @@
+{
+  "main": "abc_server.js",
+  "engines": {
+    "node": "16.15.1"
+  },
+  
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend &&npm install && npm run build",
+    "start": "node backend/abc_server.js"
+  }
+}

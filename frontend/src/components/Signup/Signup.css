@@ -1,0 +1,76 @@
+.signupWrapper {
+  min-height: 80vh;
+  font-size: 12px;
+}
+.signupWrapper form {
+  margin: 3rem auto;
+  background-color: papayawhip;
+  width: 360px;
+  padding: 3rem;
+}
+.signupWrapper form .user {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.signupWrapper form .user span {
+  width: 87px;
+  display: block;
+  margin-right: 4px;
+  line-height: 38px;
+  text-align: center;
+}
+.signupWrapper form .user input {
+  outline: none;
+  height: 32px;
+  border: 3px solid lightcoral;
+  border-radius: 8px;
+  width: 240px;
+}
+.signupWrapper form .password {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.signupWrapper form .password span {
+  width: 87px;
+  display: block;
+  margin-right: 4px;
+  line-height: 38px;
+  text-align: center;
+}
+.signupWrapper form .password .wrap {
+  line-height: 12px;
+  text-align: center;
+  position: relative;
+  top: 6px;
+}
+.signupWrapper form .password input {
+  outline: none;
+  height: 32px;
+  border: 3px solid lightcoral;
+  border-radius: 8px;
+  width: 240px;
+}
+.signupWrapper form .submit {
+  user-select: none;
+  background-color: lightcoral;
+  display: block;
+  height: 32px;
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+  color: aliceblue;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  position: relative;
+  transition: 0.5s;
+  text-align: center;
+}
+.signupWrapper form .submit:active {
+  top: 2px;
+  left: 2px;
+}
+.signupWrapper form .signupLink {
+  margin: 0 auto;
+  width: fit-content;
+}

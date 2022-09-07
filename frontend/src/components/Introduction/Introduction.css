@@ -1,0 +1,15 @@
+.intro {
+  max-width: 900px;
+  margin: 2rem auto;
+  min-height: 80vh;
+}
+.intro .ourProducts {
+  max-width: fit-content;
+  display: block;
+}
+.intro .ourProducts h1 {
+  width: fit-content;
+}
+.intro h3 {
+  margin-top: 1rem;
+}

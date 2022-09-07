@@ -1,0 +1,33 @@
+.categoryWrapper {
+  max-width: 900px;
+  margin:2rem auto;
+  .productWrapper{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    padding: 0.5rem;
+    .product {
+      border:1px solid gray;
+      max-width: 250px;
+      margin-right: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      .imgWrapper {
+        height:250px;
+        width:250px;
+        display: flex;
+        background-color: white;
+        >a {
+
+          margin:auto 0;
+          img {
+            max-width: 250px;
+            max-height: 250px;
+          }
+        }
+      }
+    }
+  }
+}
