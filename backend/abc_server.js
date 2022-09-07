@@ -183,7 +183,7 @@ app.post('/api/products/modify-a-product', async (req, res) => {
   }
 })
 
-app.get('/process-env', (req,res)=>{
+app.get('/api/process-env', (req,res)=>{
   res.send(process.env.PAYPAL_CLIENT_ID);
 })
 

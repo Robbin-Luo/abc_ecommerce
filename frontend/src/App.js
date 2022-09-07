@@ -33,7 +33,7 @@ export default function App() {
   useEffect(()=>{
     const fetchEnv=async()=>{
       try{
-        const result=await axios.get('/process-env');
+        const result=await axios.get('/api/process-env');
         setClientId(result.data);
       }catch(error){
         console.log(error.message);
